@@ -1,4 +1,4 @@
-libipfix (0.8.2-1) oneiric; urgency=low
+libipfix (0.8.2-1) trusty; urgency=low
 
   [ Ramon Masek ]
   * put some typedef's into ipfix.h

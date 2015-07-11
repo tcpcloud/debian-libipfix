@@ -1,6 +1,7 @@
 Source: libipfix
 Priority: extra
-Maintainer: Packet Tracking <packettracking@fokus.fraunhofer.de> 
+Maintainer: Filip Pytloun <filip.pytloun@tcpcloud.eu>
+XSBC-Original-Maintainer: Packet Tracking <packettracking@fokus.fraunhofer.de> 
 Uploaders: Ramón Masek <ramon.masek@fokus.fraunhofer.de>
 Build-Depends: debhelper (>= 7), autotools-dev, libpcap0.8-dev (>= 0.9.8)
 Standards-Version: 3.8.4
