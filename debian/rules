@@ -10,9 +10,12 @@
 #export DH_VERBOSE=1
 
 %:
-	dh  $@
+	dh --with autotools_dev $@
 
 override_dh_auto_configure:
-	test -r /usr/share/misc/config.sub && cp -f /usr/share/misc/config.sub config.sub
-	test -r /usr/share/misc/config.guess && cp -f /usr/share/misc/config.guess config.guess
+	dh_autotools-dev_updateconfig
 	dh_auto_configure
+
+override_dh_auto_clean:
+	dh_autotools-dev_restoreconfig
+	dh_auto_clean
