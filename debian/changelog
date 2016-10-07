@@ -1,3 +1,9 @@
+libipfix (0.8.2+0tcp2+jessie) jessie; urgency=medium
+
+  * fix jessie build
+
+ -- Filip Pytloun <filip@pytloun.cz>  Fri, 07 Oct 2016 15:15:19 +0200
+
 libipfix (0.8.2+0tcp2) jessie; urgency=medium
 
   * fix revision for native package
