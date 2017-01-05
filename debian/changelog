@@ -1,3 +1,9 @@
+libipfix (0.8.2+1tcp2+trusty1) trusty; urgency=medium
+
+  * Fix revision of native package
+
+ -- Filip Pytloun <filip@pytloun.cz>  Thu, 05 Jan 2017 13:17:15 +0100
+
 libipfix (0.8.2-1tcp1) trusty; urgency=medium
 
   * tcp cloud build
